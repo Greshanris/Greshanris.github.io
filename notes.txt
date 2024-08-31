@@ -24,4 +24,8 @@ Task 2:
     -- Inside nav bar, creating the two div elements, one for logo, and one for navigation menu
     -- Included Sections in right div element, within unordered list.
     -- Now, putting it in the flexbox model on both nav bar and <ul> element.
+        --- The nav bar display was done to be flex, justify-content to be center.
+            ---- But, after seeing in live server, and inspect, and styles, the justify-content: space-evenly seemed nice.
+        --- Then, the ul inside the nav bar, display is chosen as flex and justify-content as center;
+        --- The list inside the ul is in bullet form, so inside (nav ul li), the list-style is made none, to remove the bullets.
 - Adding navigation bar to navigate between sections
