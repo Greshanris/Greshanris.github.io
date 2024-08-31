@@ -5,5 +5,11 @@ Task 1:
 
 Task 2:
 - Creating index.html as an main page for the portfolio
+    -- ! => Emmet Abbreviation, gives HTML boiler plate
+    After, Creating header,
+        --- Created the nav bar
+        --- inside nav bar.
+            ---- div.left => <div class="left"></div> (inside, left side, logo type)
+            ---- div.right => <div class="right"></div> (inside, right side, navigation bar)
 - Including sections like About Me, Projects, Skills, Contact, etc.
 - Adding navigation bar to navigate between sections
