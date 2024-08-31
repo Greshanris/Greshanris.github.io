@@ -11,5 +11,17 @@ Task 2:
         --- inside nav bar.
             ---- div.left => <div class="left"></div> (inside, left side, logo type)
             ---- div.right => <div class="right"></div> (inside, right side, navigation bar)
+    Inside Head element,
+    -- Imported Poppins font from the https://fonts.google.com/selection/embed 
+        --- Poppins Regular, Poppins Semibold, Poppins Bold
+        --- Copied the URL and pasted after the <title> element.
+        --- Structure: 
+            ---- <link rel="preconnect" href="https://fonts.googleapis.com">
+            ---- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            ---- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
 - Including sections like About Me, Projects, Skills, Contact, etc.
+    -- Creating the nav bar inside the Header element
+    -- Inside nav bar, creating the two div elements, one for logo, and one for navigation menu
+    -- Included Sections in right div element, within unordered list.
+    -- Now, putting it in the flexbox model on both nav bar and <ul> element.
 - Adding navigation bar to navigate between sections
