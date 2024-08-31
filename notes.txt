@@ -1,0 +1,9 @@
+Task 1:
+- Creating new repository, with the name formatted as Greshanris.github.io
+- Cloning in the local machine using git: git clone https://github.com/Greshanris/Greshanris.github.io.git
+- Navigating to the repository directory using: cd Greshanris.github.io
+
+Task 2:
+- Creating index.html as an main page for the portfolio
+- Including sections like About Me, Projects, Skills, Contact, etc.
+- Adding navigation bar to navigate between sections
