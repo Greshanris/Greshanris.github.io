@@ -88,6 +88,19 @@
         #element {
             color: rgb(150, 114, 184);
         }
+
+        hr {
+            border: 0;
+            background-color: rgb(118 107 107);
+            height: 0.5vw;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: 1vw auto;
+            background-color: rgb(98, 160, 160);
+            color: rgb(42 36 36);
+        }
     </style>
 </head>
 
@@ -110,19 +123,23 @@
         <section class="firstSection">
             <div class="leftSection">
                 Hello, Welcome to my Portfolio's <strong>Home Page</strong>.
-                <div>My name is <span class="purple">Rishav Chaudhary</span>, a </div>
+                <div>My name is <span class="purple">Rishav Chaudhary</span>, I am a </div>
                 <span id="element"></span>
             </div>
             <div class="rightSection">
                 <img src="developer_image.png" alt="AI Generated Cartoonized Developer image">
             </div>
         </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Training and Experience</h1>
+        </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
         var typed = new Typed('#element', {
-            strings: ['Student.', 'Web Development Enthusiast.', 'Learner.', ],
+            strings: ['Student.', 'Web Development Enthusiast.', 'Learner.',],
             typeSpeed: 50,
         });
     </script>
