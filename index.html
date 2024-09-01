@@ -15,7 +15,7 @@
         }
 
         body {
-            background-color: rgb(45, 45, 75);
+            background-color: rgb(42 36 36);
             color: white;
             font-family: 'Poppins', sans-serif;
         }
@@ -25,7 +25,7 @@
             justify-content: space-around;
             align-items: center;
             height: 85px;
-            background-color: rgb(26 26 54);
+            background-color: rgb(118 107 107);
         }
 
         nav ul {
@@ -36,6 +36,16 @@
         nav ul li {
             list-style: none;
             margin: 0 40px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(42 36 36);
+            font-size: 1.01rem;
         }
 
         .left {
@@ -49,24 +59,31 @@
             display: flex;
             justify-content: space-around;
             margin: 16px 0;
+            align-items: center;
         }
 
-        .firstSection > div {
+        .firstSection>div {
             width: 30%;
         }
 
         .leftSection {
             border-radius: 25px 16px;
-            background-color: #28364c;
             font-size: 2rem;
-            margin: 30px 0;
+        }
+
+        .rightSection {
+            border-radius: 25px 16px;
+            margin: 1% 0;
         }
 
         .rightSection img {
-            width: 80%;
-            
+            width: 60%;
+            padding-inline-start: 20%;
         }
 
+        .purple {
+            color: rgb(118, 41, 190);
+        }
     </style>
 </head>
 
@@ -76,21 +93,21 @@
             <div class="left">Rishav's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact</a></li>
                 </ul>
             </div>
-        </nav>
     </header>
 
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                Hello, I am <span class="purple">Rishav Chaudhary</span>
-                <div class="content">and I am a Web Development Enthusiast and Data Science Enthusiast.</div>
+                Hello, Welcome to my Portfolio's <strong>Home Page</strong>.
+                <div>My name is <span class="purple">Rishav Chaudhary</span>, a Web development Enthusiast</div>
+
             </div>
             <div class="rightSection">
                 <img src="developer_image.png" alt="AI Generated Cartoonized Developer image">
