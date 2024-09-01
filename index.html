@@ -82,7 +82,11 @@
         }
 
         .purple {
-            color: rgb(118, 41, 190);
+            color: rgb(98, 77, 117);
+        }
+
+        #element {
+            color: rgb(150, 114, 184);
         }
     </style>
 </head>
@@ -106,14 +110,22 @@
         <section class="firstSection">
             <div class="leftSection">
                 Hello, Welcome to my Portfolio's <strong>Home Page</strong>.
-                <div>My name is <span class="purple">Rishav Chaudhary</span>, a Web development Enthusiast</div>
-
+                <div>My name is <span class="purple">Rishav Chaudhary</span>, a </div>
+                <span id="element"></span>
             </div>
             <div class="rightSection">
                 <img src="developer_image.png" alt="AI Generated Cartoonized Developer image">
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Student.', 'Web Development Enthusiast.', 'Learner.', ],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>

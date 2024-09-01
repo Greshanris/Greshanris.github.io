@@ -29,3 +29,7 @@ Task 2:
         --- Then, the ul inside the nav bar, display is chosen as flex and justify-content as center;
         --- The list inside the ul is in bullet form, so inside (nav ul li), the list-style is made none, to remove the bullets.
 - Adding navigation bar to navigate between sections
+
+- typed.js (This is the javascript typing animation gallery.)
+    --- Using CDN (<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>), after closing main tag
+    --- copying the span element, <span id="element"></span> to wherever we needed to animate.
