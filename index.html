@@ -58,7 +58,7 @@
         .firstSection {
             display: flex;
             justify-content: space-around;
-            margin: 16px 0;
+            margin: 3vw 0;
             align-items: center;
         }
 
@@ -89,17 +89,22 @@
             color: rgb(150, 114, 184);
         }
 
-        hr {
+        main hr {
             border: 0;
             background-color: rgb(118 107 107);
-            height: 0.5vw;
+            height: 0.3vw;
+            margin: 0.3vw;
         }
 
         .secondSection {
             max-width: 80vw;
             margin: 1vw auto;
-            background-color: rgb(98, 160, 160);
+            background-color: rgb(98, 160, 160, 0.7);
             color: rgb(42 36 36);
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
         }
     </style>
 </head>
@@ -132,7 +137,8 @@
         </section>
         <hr>
         <section class="secondSection">
-            <h1>Training and Experience</h1>
+            <div class="TandE"><h1>Training and Experience</h1></div>
+            <div class="content"></div>
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
