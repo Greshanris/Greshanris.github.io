@@ -158,7 +158,6 @@ main hr {
     font-size: 0.9em;
 }
 
-/* Paragraph Styling */
 .secondSection .car_details p {
     font-size: 1em;
     line-height: 1.5;
@@ -221,3 +220,116 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+.skillsSection {
+    padding: 40px 20px;
+    background-color: rgb(118, 107, 107); 
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.skillsSection .name h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skillCard {
+    background-color: rgb(42, 36, 36);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.skillCard:hover {
+    transform: scale(1.05);
+}
+
+.skillCard h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: rgb(150, 114, 184);
+    border-bottom: 2% solid rgb(118, 107, 107);
+}
+
+.skillCard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skillCard ul li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.footerSection {
+    background-color: rgb(42, 36, 36);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid rgb(118, 107, 107);
+}
+
+.contactDetails, .socialMedia {
+    margin: 10px;
+}
+
+.contactDetails h2, .socialMedia h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(150, 114, 184); 
+}
+
+.contactDetails p, .socialMedia a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.socialMedia a {
+    display: block;
+    margin: 5px 0;
+}
+
+.socialMedia a:hover {
+    color: rgb(150, 114, 184); 
+}
+
+.footerCredits {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: rgb(118, 107, 107);
+}
+
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }

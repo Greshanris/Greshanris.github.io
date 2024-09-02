@@ -74,7 +74,7 @@
                                 Exploring NYC-School Result
                             </span>
                         </div>
-                        <button id="Project1">Read more</button>
+                        <a href=""><button id="Project1">Read more</button></a>
                     </div>
                 </div>
                 <div class="container2">
@@ -102,9 +102,51 @@
             </div>
             </div>
         </section>
-
-        <section id="skills" class="fourthSection">
-
+        <hr>
+        <section id="skills" class="skillsSection">
+            <div class="name">
+                <h1>Skills</h1>
+            </div>
+            <div class="skillsContainer">
+                <div class="skillCard">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+                <div class="skillCard">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skillCard">
+                    <h3>Data Science</h3>
+                    <ul>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                </div>
+                <div class="skillCard">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
         </section>
 
     </main>
@@ -118,11 +160,41 @@
     </script>
     <script src="./script.js"></script>
 
-    <footer>
-        <section id="contact" class="contacts">
-            
-        </section>
+    <footer class="footerSection" id="contact">
+        <div class="footerContainer">
+            <div class="contactDetails">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:rishavc957@gmail.com">rishavc957@gmail.com</a></p>
+                <p>Phone: <a href="phn:+9818811713">+9818811713</a></p>
+                <p>Location: Gothatar, Kathmandu</p>
+            </div>
+            <div class="socialMedia">
+                <h2>Follow Me</h2>
+                <a href="https://www.linkedin.com/in/rishav-chaudhary-390136170/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Greshanris" target="_blank">GitHub</a>    
+            </div>
+            <div class="form">
+                <h2>Want to leave a message?</h2>
+                <form>
+                    <fieldset>
+                        <div id="formelement" style="margin: 1%;">
+                            <label for="name">Full Name:</label>
+                            <input id="Name" name="name" type="text" placeholder="Rishav Chaudhary" minlength="4" maxlength="17" height="10" required />
+                            <label for="email">Email: </label>
+                            <input id="email" email="email" type="email" placeholder="rishavc957@gmail.com" />
+                            <label for="textbox">Message:</label>
+                            <input id="textbox" type="text" placeholder="message" size="100"/>
+                            <input id="submit" type="submit" style="color: white; background-color: rgb(117, 65, 117);">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="footerCredits">
+            <p>&copy; 2024 Rishav Chaudhary. All rights reserved.</p>
+        </div>
     </footer>
+    
 </body>
 
 </html>
