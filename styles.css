@@ -179,10 +179,12 @@ main hr {
     color: white;
 }
 
-.thirdSection .bigContainer {
+.thirdSection > .bigContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .container1, .container2, .container3 {

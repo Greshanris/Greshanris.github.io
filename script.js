@@ -9,7 +9,7 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-// Example form validation (add more specific rules based on your form)
+// Example form validation 
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('contactForm'); // Assuming you have a form with ID 'contactForm'
     if (form) {
