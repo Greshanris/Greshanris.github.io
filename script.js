@@ -37,9 +37,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-// Example for a button click event
-document.querySelectorAll('button[id^="Project"]').forEach(button => {
-    button.addEventListener('click', function() {
-        alert(`You clicked on ${this.id}`);
-    });
-});
