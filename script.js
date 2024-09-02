@@ -11,7 +11,7 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
 
 // Example form validation 
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('contactForm'); // Assuming you have a form with ID 'contactForm'
+    const form = document.getElementById('contactForm'); 
     if (form) {
         form.addEventListener('submit', function(event) {
             let isValid = true;
