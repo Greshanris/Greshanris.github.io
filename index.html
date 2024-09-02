@@ -5,112 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rishav Chaudhary's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(42 36 36);
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 85px;
-            background-color: rgb(118 107 107);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 40px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-            color: rgb(42 36 36);
-            font-size: 1.01rem;
-        }
-
-        .left {
-            font-size: 1.5rem;
-            border-right: solid;
-            border-right-color: white;
-            padding-right: 1%;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            margin: 4vw 0;
-            align-items: center;
-        }
-
-        .firstSection>div {
-            width: 30%;
-        }
-
-        .leftSection {
-            border-radius: 25px 16px;
-            font-size: 2rem;
-        }
-
-        .rightSection {
-            border-radius: 25px 16px;
-            margin: 1% 0;
-        }
-
-        .rightSection img {
-            width: 60%;
-            padding-inline-start: 20%;
-        }
-
-        .purple {
-            color: rgb(98, 77, 117);
-        }
-
-        .text-white {
-            color: white;
-        }
-
-        #element {
-            color: rgb(150, 114, 184);
-        }
-
-        main hr {
-            border: 0;
-            background-color: rgb(118 107 107);
-            height: 0.3vw;
-            margin: 0.3vw;
-        }
-
-        .secondSection {
-            max-width: 80vw;
-            margin: 1vw auto;
-            background-color: rgb(98, 160, 160, 0.7);
-            color: rgb(42 36 36);
-        }
-
-        .secondSection h1 {
-            font-size: 1.9rem;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -141,9 +36,12 @@
         </section>
         <hr>
         <section class="secondSection">
-            <span class="text-gray">What I have done so far</span>
-            <div class="TandE"><h1>Training and Experience</h1></div>
-            <div class="content"></div>
+            <div class="TandE"><h1>About Me</h1></div>
+            <div class="profilepic"><img src="./Rishav_pic.jpg" alt="Profile Picture"></div>
+            <div class="content">
+                <p> I am a Student at Presidential Graduate School Studying Bsc.IT. I am Currently exploring the fields of data science, web development, and cybersecurity. My academic journey has equipped me with strong foundational skills in Python, SQL, R, and data manipulation, which I have further honed through various projects and certifications. In addition to my data science interests, I am also exploring web development and have been building static web pages using HTML, CSS, and JavaScript. I am eager to expand my knowledge in full-stack development, focusing on backend technologies, React, and other modern tools.<br>
+                </p>
+            </div>
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -154,6 +52,7 @@
             typeSpeed: 50,
         });
     </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
